@@ -28,7 +28,7 @@ header nav ul li:first-of-type {
 }
 
 header nav li a {
-    font-family: 'Poppins';
+    font-family: 'Poppins', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -42,7 +42,7 @@ header nav li:first-of-type a {
 }
 
 header nav li:last-of-type a {
-    font-family: 'Poppins';
+    font-family: 'Poppins', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -159,4 +159,41 @@ header nav li:last-of-type a {
 
 .help .container{
     text-align: center;
+}
+
+.information_block{
+    background-size: cover;
+    min-height: 600px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.information_block article{
+    max-width: 298px;
+    margin-right: 62px;
+}
+.information_block_img1{
+    background-image: url("../images/bg1.jpg");
+}
+.information_block_img2{
+    background-image: url("../images/bg2.jpg");
+}
+.information_block_img3{
+    background-image: url("../images/bg3.jpg");
+}
+.information_block article h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.information_block article p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
 }
