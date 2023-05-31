@@ -69,7 +69,7 @@ header nav li:last-of-type a {
     text-align: center;
 }
 .main_banner h3{
-    font-family: 'Poppins';
+    font-family: 'Poppins', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -79,7 +79,7 @@ header nav li:last-of-type a {
     color: #C0C0C0;
 }
 .main_banner h1{
-    font-family: 'Poppins';
+    font-family: 'Poppins', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 54px;
@@ -87,7 +87,7 @@ header nav li:last-of-type a {
     color: #FFFFFF;
 }
 .main_banner p{
-    font-family: 'Poppins';
+    font-family: 'Poppins', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -109,7 +109,7 @@ header nav li:last-of-type a {
 }
 
 .Need-help{
-    font-family: 'Poppins';
+    font-family: 'Poppins', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
@@ -120,7 +120,7 @@ header nav li:last-of-type a {
 }
 
 .We-are{
-    font-family: 'Poppins';
+    font-family: 'Poppins', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -134,7 +134,7 @@ header nav li:last-of-type a {
     background-color: #FFFFFF;
     padding: 10px 11px;
     border-radius: 14px;
-    font-family: 'Poppins';
+    font-family: 'Poppins', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -240,7 +240,7 @@ header nav li:last-of-type a {
 }
 
 .txt_what_we_do{
-    font-family: 'Poppins';
+    font-family: 'Poppins', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
@@ -251,7 +251,7 @@ header nav li:last-of-type a {
 }
 
 .the_areas{
-    font-family: 'Poppins';
+    font-family: 'Poppins', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 23px;
@@ -302,4 +302,44 @@ header nav li:last-of-type a {
     line-height: 20px;
     color: #C0C0C0;
     padding-bottom: 6px;
+}
+
+.past_clients{
+    background-color: black;
+    padding-top: 113px;
+    padding-bottom: 140px;
+}
+
+.PC,.trusted_by{
+    margin: auto;
+}
+
+.PC{
+    font-family: 'Poppins', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.trusted_by{
+    font-family: 'Poppins', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+    margin-bottom: 82px;
+}
+
+.labes{
+    padding-left: 182px;
+    padding-right: 182px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }

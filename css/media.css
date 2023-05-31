@@ -27,8 +27,7 @@
     }
 }
 
-
-@media only screen and (max-width: 523px) {
+@media only screen and (max-width: 513px) {
     header .container ul{
         display: block;
     }
@@ -40,3 +39,22 @@
         justify-content: center;
     }
 }
+
+@media only screen and (max-width: 513px) {
+    .main_banner nav ul li{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    .labes{
+        margin-left: 0px;
+        margin-right: 0px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .labes img{
+        margin: 20px 20px 20px 20px;
+    }
+}
+
