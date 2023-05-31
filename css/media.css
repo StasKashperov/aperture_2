@@ -1,5 +1,42 @@
 @media only screen and (max-width: 874px) {
     header nav ul li{
-        margin-left: 8;
+        margin-left: 12px;
+    }
+
+    header nav ul li:first-of-type {
+        margin-right: 0px;
+    }
+}
+
+
+@media only screen and (max-width: 764px) {
+    header nav ul li{
+        margin-left: 5px;
+    }
+}
+
+
+@media only screen and (max-width: 715px) {
+    header nav ul li{
+        display: flex;
+        justify-content: wrap;
+    }
+    .logo{
+        margin-left: -25px;
+        margin-right: 5px;
+    }
+}
+
+
+@media only screen and (max-width: 523px) {
+    header .container ul{
+        display: block;
+    }
+    header nav ul li{
+        margin-bottom: 10px;
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
     }
 }
