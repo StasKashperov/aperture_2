@@ -337,9 +337,39 @@ header nav li:last-of-type a {
 }
 
 .labes{
-    padding-left: 182px;
-    padding-right: 182px;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.labes .wrapper a{
+    max-width: 128px;
+    display: inline-block;
+}
+
+.labes .owl-item{
+    text-align: center;
+}
+
+.labes owl-stage{
+    text-align: center;
+}
+
+.labes .owl-nav .owl-prev{
+    background-color: green;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: -20px;
+    top: 30px;
+}
+
+.labes .owl-nav .owl-next{
+    background-color: green;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: -20px;
+    top: 30px;
 }
