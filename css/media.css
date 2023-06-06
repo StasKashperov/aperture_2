@@ -58,3 +58,9 @@
         justify-content: center;
     }
 }
+
+@media only screen and (max-width: 294px) {
+ .d-flex .styles h5{
+     padding-bottom: 5px;
+ }
+}
