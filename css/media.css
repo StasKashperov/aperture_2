@@ -1,3 +1,15 @@
+@media only screen and (max-width: 1080px) {
+    .labes{
+        margin-left: 0px;
+        margin-right: 0px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .labes img{
+        margin: 20px 20px 20px 20px;
+    }
+}
+
 @media only screen and (max-width: 874px) {
     header nav ul li{
         margin-left: 12px;
@@ -28,33 +40,21 @@
 }
 
 @media only screen and (max-width: 513px) {
+    .widget_right_bottom{
+        bottom: auto;
+        right: auto;
+    }
+}
+
+@media only screen and (max-width: 513px) {
     header .container ul{
         display: block;
     }
     header nav ul li{
-        margin-bottom: 10px;
+        margin-bottom: 0px;
     }
     .logo{
         display: flex;
         justify-content: center;
     }
 }
-
-@media only screen and (max-width: 513px) {
-    .main_banner nav ul li{
-        display: none;
-    }
-}
-
-@media only screen and (max-width: 1080px) {
-    .labes{
-        margin-left: 0px;
-        margin-right: 0px;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    .labes img{
-        margin: 20px 20px 20px 20px;
-    }
-}
-
